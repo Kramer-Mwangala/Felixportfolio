@@ -43,7 +43,7 @@ export function getCategoryLabel(category: string): string {
  * @returns Full CDN URL with proper encoding
  */
 export function getCdnUrl(path: string): string {
-  const cdnUrl = process.env.NEXT_PUBLIC_BUNNY_CDN_URL || "https://FelixTuk.b-cdn.net";
+  const cdnUrl = process.env.NEXT_PUBLIC_BUNNY_CDN_URL || "https://felixdesign.b-cdn.net";
   if (!cdnUrl) {
     console.warn("NEXT_PUBLIC_BUNNY_CDN_URL not configured");
     return path;
