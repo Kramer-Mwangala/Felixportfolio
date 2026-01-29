@@ -76,9 +76,9 @@ export default function AdminExperiencePage() {
       const token = localStorage.getItem("token");
       if (!token) return;
 
-      const payload = {
+      const payload: Partial<Experience> = {
         ...data,
-        endDate: data.isCurrent ? null : data.endDate,
+        endDate: data.isCurrent ? undefined : data.endDate || undefined,
       };
 
       if (editing) {
