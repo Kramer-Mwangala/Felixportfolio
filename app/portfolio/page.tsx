@@ -129,12 +129,16 @@ const static3DCreations = {
   activationSetups: [
     {
       title: "Delamere Booth",
-      src: getCdnUrl("3D/3D CREATION/ACTIVATION SET UPS/DELAMERE/booth.png"),
+      src: getCdnUrl(
+        "3D/3D CREATION/ACTIVATION SET UPS/DELAMERE/booth FRONT.png",
+      ),
       category: "Delamere",
     },
     {
       title: "Delamere Front",
-      src: getCdnUrl("3D/3D CREATION/ACTIVATION SET UPS/DELAMERE/front.png"),
+      src: getCdnUrl(
+        "3D/3D CREATION/ACTIVATION SET UPS/DELAMERE/booth SIDE.png",
+      ),
       category: "Delamere",
     },
     {
